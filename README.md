@@ -41,4 +41,54 @@ The app supports **user authentication, channels, direct messages, typing indica
 ---
 
 ## 📁 Project Structure
+ChatBridge/
+│
+├── backend/
+│ ├── middleware/
+│ ├── models/
+│ ├── routes/
+│ ├── server.js
+│ ├── package.json
+│ └── .env
+│
+├── frontend/
+│ ├── src/
+│ ├── public/
+│ ├── package.json
+│ ├── tailwind.config.js
+│ └── postcss.config.js
+│
+└── README.md
+
+
+
+---
+
+## 🧪 Tech Stack
+
+### **Frontend**
+- React 19  
+- React Router DOM  
+- TailwindCSS  
+- Vite  
+- Socket.IO Client  
+
+### **Backend**
+- Node.js  
+- Express.js  
+- MongoDB + Mongoose  
+- Socket.IO  
+- JWT  
+- bcryptjs  
+- Multer  
+- Morgan  
+
+---
+
+## 🔧 Installation & Setup
+
+### 1️⃣ Clone the repository
+```sh
+git clone https://github.com/YOUR_USERNAME/chatbridge.git
+cd chatbridge
 
